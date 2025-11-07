@@ -73,17 +73,12 @@ pip install -r requirements.txt
 Now, open the `.env` file and fill in your credentials:
 
 ```dotenv
-# .env Configuration File
-
-# --- Google Gemini API Configuration ---
 GOOGLE_API_KEY="Your-Google-AI-API-Key"
 
-# --- Qdrant Vector Database Configuration ---
 # Default for a local Docker container
 QDRANT_HOST="http://localhost:6333"
 QDRANT_API_KEY=""
 
-# --- Neo4j Knowledge Graph Configuration ---
 # Default for a local Docker container or Neo4j Desktop
 NEO4J_URI="neo4j://localhost:7687"
 NEO4J_USERNAME="neo4j"
